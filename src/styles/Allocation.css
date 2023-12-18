@@ -1,0 +1,108 @@
+body {
+  /* background-color: #bae6fd; */
+  background-color: #e7e5e4;
+}
+
+.classrooms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.fields {
+  display: flex;
+  align-items: center;
+}
+
+.f1 {
+  margin-right: 80px;
+}
+
+.f1:last-child {
+  margin-right: 0;
+}
+
+.TableContainer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.Table {
+  min-width: 1100px;
+}
+
+.TableHead {
+  /* background-color: #2196f3; */
+  background-color: #9f9894;
+}
+
+.TableHeadCell {
+  font-weight: bold;
+  color: white !important;
+}
+
+.TableRow {
+  &:nth-of-type(odd) {
+    background-color: #f5f5f5;
+  }
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+}
+.hall-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hall-box {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.hall-box:hover {
+  background-color: #f5f5f5;
+}
+
+.hall-info {
+  flex: 1;
+}
+
+.hall-name {
+  font-weight: bold;
+}
+
+.hall-capacity {
+  margin-top: 5px;
+}
+
+.below {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  position: fixed;
+  bottom: 10px;
+}
+
+.total-seats-section {
+  margin-top: 20px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.action-buttons > button {
+  margin-left: 10px;
+}
